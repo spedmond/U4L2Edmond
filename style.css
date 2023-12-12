@@ -1,8 +1,54 @@
-.body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color:rgb(48, 54, 61);
 }
 
-.userId {
+#title {
+    color:rgb(217, 217, 217);
+    text-align:center;
+    font-size:40px;
+    font-family: 'Roboto', sans-serif;
+    
+}
 
+#posts {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:rgb(217, 217, 217);
+    font-weight:400;
+}
+
+h3 {
+    font-size:25px;
+    font-weight:700;
+}
+
+#post {
+    border-radius: 10px;
+    background-color:rgb(25, 28, 31);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom: 15px;
+}
+
+#users {
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color:rgb(217, 217, 217);
+    font-weight:700;
+    border-radius: 10px;
+    background-color:rgb(25, 28, 31);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom: 15px;
+}
+
+#name {
+    font-size:20px;
 }
